@@ -1,0 +1,174 @@
+*{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none; color:#000;}
+
+#header{width: 1320px; margin: auto; 
+    /* position: relative;  */
+    height: 80px;
+}
+/* #header img{
+    position: absolute; top: 20px; left:0;} */
+
+.header_inner{width:1320px; margin:0 auto;}
+
+
+.logo{float:left; padding:5px 0;}
+
+.left{float: left; 
+    margin-left:45px;
+    
+    /* margin-left: 30px 0 30px 200px; */
+
+
+}
+.left li{float: left; 
+    /* margin-right: 50px; */
+}
+
+.left li a{
+   
+    display:block;
+    font-size: 20px; 
+    color: #3c2c53;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    padding:27px 35px;
+}
+.left li a:hover{color: #7a77a4;}
+
+.right{float: right; 
+    
+    /* margin: 30px 0px 50px 0;  */
+}
+.right li{float: left; 
+    /* margin-left: 40px; */
+}
+.right li a{color:#7a77a4; font-family: 'Lora', serif;
+            display:block; padding:30px 10px;
+}
+.right li a:hover{color: #3c2c53;}
+
+
+#banner img{width: 100%;}
+
+#content{width: 1320px; margin: auto; height: 1700px;}
+#content h1{font-size: 30px;font-family: 'Prata', serif; color: #3c2c53; margin-bottom: 80px; font-weight: 200; text-align: center; margin: 80px 0;}
+
+.name{font-size: 20px; font-family: 'Noto Sans KR', sans-serif; color: #3c2c53; margin-right: 20px; margin-bottom: 30px; }
+.name1{ width: 100px; font-size: 15px; font-family: 'Noto Sans KR', sans-serif; margin-right: 20px; margin-bottom: 30px; color:#000}
+.inlineblock{display: inline-block;}
+.text{font-family: 'Noto Sans KR', sans-serif; font-size: 15px; margin-bottom: 50px; line-height: 30px;}
+.margin{margin-bottom: 20px;}
+
+/*table{border: 1px solid #3c2c53; border-collapse: collapse; width: 100px; height: 360px;}
+/*th{border: 1px solid #3c2c53; border-collapse: collapse;}*/
+/* td{border: 1px solid #3c2c53; border-collapse: collapse; text-align: center;} */
+
+.icon{margin-left: 185px; margin-bottom: 20px;}
+
+
+.yellow{color: #3c2c53; background-color: #7a77a4;}
+ 
+
+
+/*.border{border: 1px solid #3c2c53; width: 500px;}*/
+
+/* td>a{background-color:#7a77a4; color:#3c2c53; display: block;} */
+
+.left1{float: left; width: 660px; height: 380px;}
+.right1{float: right; width: 660px; height: 380px;}
+.height{height: 300px;}
+
+.date{width: 700px; height: 500px;}
+
+.box{width: 1320px; height: 380px; margin-top: 100px;}
+
+.top1{position: fixed; right: 100px; bottom: 100px; z-index: 99;}
+
+
+#footer{background: url(images/footer.png) no-repeat center top; 
+    background-size: cover; width: 100%; margin-top: 100px;}
+.footer-inner{width: 1320px; margin: auto; text-align: center; padding: 50px 0;}  
+.footer-inner p{font-size: 15px; font-family: 'Noto Sans KR', sans-serif; color: #3c2c53; line-height: 28px; margin: 30px 0;}  
+.footericon{margin-left: 530px; margin-bottom: 50px;}
+.footericon li{float: left; margin-left: 20px;}
+
+.third{padding-top: 5px;}
+.fontsize{ font-family: 'Noto Sans KR', sans-serif; font-size: 15px;}
+.marginleft{margin-left: 123px;}
+label{font-size: 15px;  font-family: 'Noto Sans KR', sans-serif;}
+input{border: 2px solid #7a77a4; border-radius: 5px; width: 115px; height: 20px;}
+select{font-size: 15px; font-family: 'Lora', serif; border: 2px solid #7a77a4; border-radius: 5px; }
+caption{margin-bottom: 10px; font-size: 15px;  font-family: 'Noto Sans KR', sans-serif; }
+
+.width{width: 20px; height: 15px; background-color: #d3a8ce;}
+
+.margin-top{margin-top: 0px;}
+
+
+.last{padding-top: 140PX;}
+
+
+
+
+
+
+
+
+/*배경색넣기*/
+
+#board{
+
+	width:420px; /*달력너비*/
+	height:360px; 
+	margin-bottom: 50px;/*달력높이 수정필수*/
+
+	/*border:1px solid black;*/
+
+	
+}
+
+#board>li{
+	float:left;
+	width:14.28%; /*100 나누기 7칸*/
+	height:16.6%; /*100나누기 6줄*/
+
+
+}
+
+#board>li>a{
+	display:block;
+	padding:17px 10px;
+	/* border:1px solid red; */
+	text-align:center;
+	 border-bottom: 1px solid #3c2c53; 
+	
+	font-family: 'Noto Sans KR', sans-serif; 
+	
+}
+.red{color: red;  }
+
+#board>.on>a{
+	font-weight:bold;
+	background:#d3a8ce;
+	color: #3c2c53;
+}
+
+.opacity{color: #fff;}
+
+.top{border-top:1px solid #3c2c53 ;}
+/*.top2{border-right: 1px solid #3c2c53;}*/
+.boder-left{border-left: 1px solid #3c2c53;}
+.boder-right{border-right: 1px solid #3c2c53;}
+.pink{background-color: #d3a8ce;}
+
+
+
+
+:root {
+	accent-color:#d3a8ce;
+    /* accent-color:#5729e9;
+    accent-color: rgb(0,200,0);
+    accent-color: hsl(228,4%,24%); */
+
+}
